@@ -67,7 +67,7 @@ CMD gunicorn --bind 0.0.0.0:$PORT server:app
 3. Heroku Command
 `mnister-web` is the Heroku application name. This must be unique. Give yourself a Heroku application name.
 
-`mnister-web` → `YourHerokuAppName`
+※`mnister-web` → `YourHerokuAppName`
 ```
 sudo heroku container:login
 sudo heroku create mnister-web
