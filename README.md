@@ -65,19 +65,20 @@ CMD gunicorn --bind 0.0.0.0:$PORT server:app
 ```
 
 3. Heroku Command
-`mnister-web` is the Heroku application name. This must be unique. Give yourself a Heroku application name.
+Heroku application name must be unique. Give yourself a Heroku application name.
 
-※`mnister-web` → `YourHerokuAppName`
+※Heroku application name → `YourHerokuAppName`
+
 ```
 sudo heroku container:login
-sudo heroku create mnister-web
-sudo heroku container:push web -a mnister-web
-sudo heroku container:release web -a mnister-web
+sudo heroku create YourHerokuAppName
+sudo heroku container:push web -a YourHerokuAppName
+sudo heroku container:release web -a YourHerokuAppName
 ```
 
 4. Access URL
 
-URL：https://mnister-web.herokuapp.com/
+URL：https://YourHerokuAppName.herokuapp.com/
 
 # ■Sample
 ![mnister](https://user-images.githubusercontent.com/69660581/128281550-589a4ddb-20e1-47e5-b803-c202db9c3640.png)
