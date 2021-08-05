@@ -5,6 +5,13 @@ See the next page for details.
 
 URL：
 
+# ■Requires
+- python3.8+ (python or annaconda)
+- git
+- Docker / Docker desktop (about version 20.10.7)
+- Heroku Account
+- Heroku CLI
+
 # ■Howto
 1. Git Clone
 ```bash
