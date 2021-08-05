@@ -12,7 +12,7 @@ URL：
 - [Heroku Account](https://jp.heroku.com/home)
 - [Heroku CLI](https://devcenter.heroku.com/ja/articles/heroku-cli)
 
-# ■Howto
+# ■How to
 1. Git Clone
 ```bash
 git clone https://github.com/PoodleMaster/mnister_HerokuDeployKit
