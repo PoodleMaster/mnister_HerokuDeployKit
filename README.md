@@ -6,11 +6,11 @@ See the next page for details.
 URL：
 
 # ■Requires
-- python3.8+ (python or annaconda)
-- git
-- Docker / Docker desktop (about version 20.10.7)
-- Heroku Account
-- Heroku CLI
+- python3.8+ ([python](https://www.python.org/downloads/) or [annaconda](https://www.anaconda.com/products/individual))
+- [git](https://git-scm.com/downloads)
+- [Docker / Docker desktop (about version 20.10.7)](https://www.docker.com/get-started)
+- [Heroku Account](https://jp.heroku.com/home)
+- [Heroku CLI](https://devcenter.heroku.com/ja/articles/heroku-cli)
 
 # ■Howto
 1. Git Clone
