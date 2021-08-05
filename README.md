@@ -1,5 +1,9 @@
-# ■mnister_heroku_kit
+# ■mnisterアプリ「heroku deploy kit」
 This is the mnister application used in the Qiita article.
+
+See the next page for details.
+
+URL：
 
 # ■Sample
 Please access the following URL.
