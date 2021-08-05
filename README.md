@@ -6,8 +6,13 @@ See the next page for details.
 URL：
 
 # ■Howto
+1. Git Clone
+```bash
+git clone https://github.com/PoodleMaster/mnister_HerokuDeployKit
+cd mnister_HerokuDeployKit
+```
 
-1.Create Dockerfile
+2. Create Dockerfile
 ```dockerfile:Dockerfile
 # base
 FROM continuumio/miniconda3
@@ -44,10 +49,25 @@ COPY colab_mnist.hdf5 .
 COPY static static/
 COPY templates templates/
 
-EXPOSE 5000
+# Localhost deploy
+# EXPOSE 5000
 # CMD ["gunicorn", "--bind=0.0.0.0:5000", "server:app"]
+
+# Heroku deploy
 CMD gunicorn --bind 0.0.0.0:$PORT server:app
 ```
+
+3. Heroku Command
+```
+sudo heroku container:login
+sudo heroku create mnister-web
+sudo heroku container:push web -a mnister-web
+sudo heroku container:release web -a mnister-web
+```
+
+4. Access URL
+
+URL：https://mnister-web.herokuapp.com/
 
 # ■Sample
 ![mnister](https://user-images.githubusercontent.com/69660581/128281550-589a4ddb-20e1-47e5-b803-c202db9c3640.png)
