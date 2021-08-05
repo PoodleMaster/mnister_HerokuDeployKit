@@ -1,4 +1,4 @@
-# ■mnisterアプリ「heroku deploy kit」
+# ■mnisterアプリ「Heroku Deploy Kit」
 This is the mnister application used in the Qiita article.
 
 See the next page for details.
