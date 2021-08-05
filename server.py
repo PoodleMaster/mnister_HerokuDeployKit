@@ -1,5 +1,5 @@
 ############################################################
-# mnister (keras save_model) by PoodleMaster
+# mnister by PoodleMaster
 ############################################################
 import tensorflow
 import base64
