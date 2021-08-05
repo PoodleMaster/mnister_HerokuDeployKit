@@ -1,3 +1,9 @@
+/*  
+############################################################
+# mnister by PoodleMaster
+############################################################
+*/
+
 // use Createjs and JQuery
 window.addEventListener("load", init);
 function init() {
