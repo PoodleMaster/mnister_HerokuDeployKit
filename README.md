@@ -3,7 +3,7 @@ This is the mnister application used in the Qiita article.
 
 See the next page for details.
 
-URL：
+URL：https://qiita.com/PoodleMaster/items/32ab70b14940ada5d8a9
 
 # ■Requirements
 - python3.8+ ([python](https://www.python.org/downloads/) or [annaconda](https://www.anaconda.com/products/individual))
