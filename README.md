@@ -22,7 +22,7 @@ cd mnister_HerokuDeployKit
 2. Create Dockerfile
 ```dockerfile:Dockerfile
 # base
-FROM continuumio/miniconda3
+FROM continuumio/miniconda3:4.10.3
 
 # If you are running under a proxy, enable the following and specify the Proxy server.
 ## apt-get
