@@ -25,11 +25,11 @@ cd mnister_HerokuDeployKit
 FROM continuumio/miniconda3:4.9.2
 
 # If you are running under a proxy, enable the following and specify the Proxy server.
-## apt-get
+## For apt-get
 # ENV http_proxy  "http://proxy.server.com:8080"
 # ENV https_proxy "http://proxy.server.com:8080"
 
-## pip
+## For pip
 # ENV HTTP_PROXY  "http://proxy.server.com:8080"
 # ENV HTTPS_PROXY "http://proxy.server.com:8080"
 
