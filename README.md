@@ -22,7 +22,7 @@ cd mnister_HerokuDeployKit
 2. Create Dockerfile
 ```dockerfile:Dockerfile
 # base
-FROM continuumio/miniconda3:4.10.3
+FROM continuumio/miniconda3:4.9.2
 
 # If you are running under a proxy, enable the following and specify the Proxy server.
 ## apt-get
@@ -34,7 +34,7 @@ FROM continuumio/miniconda3:4.10.3
 # ENV HTTPS_PROXY "http://proxy.server.com:8080"
 
 # init
-RUN apt-get update
+RUN apt-get update --allow-releaseinfo-change
 RUN apt-get install -y build-essential
 RUN apt-get install -y libjpeg-dev
 RUN pip install --upgrade pip
